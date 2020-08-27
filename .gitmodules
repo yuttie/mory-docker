@@ -1,0 +1,6 @@
+[submodule "mory"]
+	path = mory
+	url = https://github.com/yuttie/mory.git
+[submodule "moried"]
+	path = moried
+	url = https://github.com/yuttie/moried.git
