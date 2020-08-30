@@ -1,7 +1,8 @@
-# Integrated Docker Image for mory
+# Docker Image for mory
 
 This repository includes files necessary for building an integrated Docker
-image for mory.  A built image will contain both the
+image for mory.
+A built image will contain both the
 [frontend](https://github.com/yuttie/mory) and
 [backend](https://github.com/yuttie/moried).
 
