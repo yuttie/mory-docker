@@ -10,9 +10,18 @@ A built image will contain both the
 
 ## Quick Start
 
+You can try out mory with a pre-built Docker image as follows assuming your
+note repository is located at `/path/to/git/repo`:
+
 ```shell
 docker run -it --rm -v /path/to/git/repo:/notes -p 8080:80 yuttie/mory
 ```
+
+Please open http://localhost:8080/ after launching a container, and you would be
+able to login the system with the username `user` and the password `password`.
+
+To use a different user account, you need to build your own image from scratch
+as we see in the next section.
 
 
 
