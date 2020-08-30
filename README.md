@@ -8,7 +8,15 @@ A built image will contain both the
 
 
 
-## Usage
+## Quick Start
+
+```shell
+docker run -it --rm -v /path/to/git/repo:/notes -p 8080:80 yuttie/mory
+```
+
+
+
+## Build Your Own Image
 
 ### Assumption
 
