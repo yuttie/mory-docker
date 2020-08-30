@@ -10,7 +10,7 @@ A built image will contain both the
 
 ## Usage
 
-## Assumption
+### Assumption
 
 * mory will be served at `http://localhost:8080/`
 * Git repository for notes is located at `/path/to/git/repo`
@@ -29,7 +29,7 @@ With the default values, you can login with the username `user` and the password
 Email address will be used solely for the purpose of loading a Gravatar image.
 
 
-## Update Git submodules
+### Update Git submodules
 
 Second, fetch submodules.
 This repository contains two Git submodules `mory` and `moried`.
@@ -40,7 +40,7 @@ git submodule update
 ```
 
 
-## Build a Docker image
+### Build a Docker image
 
 Third, build an image.
 
@@ -49,7 +49,7 @@ docker build -t mory .
 ```
 
 
-## Launch a container using the built image
+### Launch a container using the built image
 
 Last, launch a mory container from the image.
 
